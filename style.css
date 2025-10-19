@@ -19,6 +19,40 @@ main {
   margin: auto;
 }
 
+.resource-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.resource-box {
+  flex: 1 1 30%;
+  background-color: #F0F8FF;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.resource-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.resource-box h3 {
+  margin-top: 0;
+  color: #00B2E1;
+}
+
+.printables { background-color: #FFF8DC; }
+.games { background-color: #E6F7FF; }
+.videos { background-color: #F0FFF0; }
+
 footer {
   background-color: #A4D65E;
   color: white;
