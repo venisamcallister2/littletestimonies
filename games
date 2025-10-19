@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Games</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎲 Games</h1>
+    <p>Faith-filled fun and learning through play</p>
+  </header>
+  <main>
+    <p>Coming soon: interactive games and activities!</p>
+    <p><a href="index.html">← Back to Home</a></p>
+  </main>
+  <footer>
+    <p>© 2025 Littlest Testimonies</p>
+  </footer>
+</body>
+</html>
