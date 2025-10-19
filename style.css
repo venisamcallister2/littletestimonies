@@ -66,13 +66,15 @@ main {
 .videos { background-color: #00C781; }
 
 .small-square {
-  width: 15vw;        /* 25% of the screen width */
-  height: 15vw;       /* same height to make it a square */
-  object-fit: cover;  /* keeps the image nicely cropped */
-  border-radius: 12px; /* optional: soft corners */
+  width: 25vw;
+  height: 25vw;
+  object-fit: contain;   /* shows the full image without cropping */
+  background-color: white; /* optional: fills empty space behind image */
+  border-radius: 12px;
   display: block;
-  margin: 1rem auto;  /* centers the image */
+  margin: 1rem auto;
 }
+
 
 
 
