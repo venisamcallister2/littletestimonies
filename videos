@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Videos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎥 Videos</h1>
+    <p>Stories, songs, and lessons to watch and sing along</p>
+  </header>
+  <main>
+    <p>Coming soon: gentle gospel videos for children and families!</p>
+    <p><a href="index.html">← Back to Home</a></p>
+  </main>
+  <footer>
+    <p>© 2025 Littlest Testimonies</p>
+  </footer>
+</body>
+</html>
