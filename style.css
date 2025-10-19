@@ -66,8 +66,8 @@ main {
 .videos { background-color: #00C781; }
 
 .small-square {
-  width: 25vw;        /* 25% of the screen width */
-  height: 25vw;       /* same height to make it a square */
+  width: 15vw;        /* 25% of the screen width */
+  height: 15vw;       /* same height to make it a square */
   object-fit: cover;  /* keeps the image nicely cropped */
   border-radius: 12px; /* optional: soft corners */
   display: block;
