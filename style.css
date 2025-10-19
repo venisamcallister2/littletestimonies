@@ -64,6 +64,15 @@ main {
 .games { background-color: #00AEEF; }
 .videos { background-color: #00C781; }
 
+.small-square {
+  width: 25vw;        /* 25% of the viewport width */
+  height: 25vw;       /* same height to make it a square */
+  object-fit: cover;  /* ensures the image fills the square without distortion */
+  border-radius: 12px; /* optional: soft rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* optional: gentle shadow */
+}
+
+
 footer {
   background-color: #A4D65E;
   color: white;
