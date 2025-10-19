@@ -84,3 +84,36 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+@media (max-width: 768px) {
+  .resource-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resource-box {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .small-square {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  header, footer {
+    padding: 1rem;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
