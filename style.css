@@ -17,7 +17,11 @@ main {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
+  background-color: #00B2E1;
+  color: white;
+  border-radius: 12px;
 }
+
 
 .resource-grid {
   display: flex;
