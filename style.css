@@ -66,12 +66,14 @@ main {
 .videos { background-color: #00C781; }
 
 .small-square {
-  width: 25vw;        /* 25% of the viewport width */
+  width: 25vw;        /* 25% of the screen width */
   height: 25vw;       /* same height to make it a square */
-  object-fit: cover;  /* ensures the image fills the square without distortion */
-  border-radius: 12px; /* optional: soft rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* optional: gentle shadow */
+  object-fit: cover;  /* keeps the image nicely cropped */
+  border-radius: 12px; /* optional: soft corners */
+  display: block;
+  margin: 1rem auto;  /* centers the image */
 }
+
 
 
 footer {
